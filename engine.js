@@ -12,7 +12,7 @@ const Player= function(x, y, vector) {
     this.y = y;
     this.vector = vector;
 
-    this.print = function(){
+    this.draw = function(){
         console.log(canva.ctx)
         canva.ctx.beginPath();
         canva.ctx.arc(this.x, this.y, this.rayon, 0, Math.PI*2);
